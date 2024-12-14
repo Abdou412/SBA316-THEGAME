@@ -1,11 +1,11 @@
 .maincontainer {
-  border: solid;
+  border: solid rgb(43, 21, 21);
   border-width: 10px;
   height: 100vh;
   width: 80%;
   background-color: rgb(74, 81, 231);
   margin: auto;
-  color: burlywood;
+  color: rgb(245, 225, 201);
   text-align: center;
   font-size: x-large;
 }
@@ -16,4 +16,11 @@
   margin-top: 20px;
   font-size: 2em;
   background-color: rgb(43, 35, 25);
+  padding: 5px;
+}
+span{
+
+color: coral;
+
+
 }
