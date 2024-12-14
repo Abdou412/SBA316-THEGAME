@@ -3,7 +3,7 @@ let turn = "x";
 let array_punch = [];
 function win() {
   for (i = 1; i <= 9; i++) {
-    array_punch[i] = document.getElementById("punch" + i);
+    array_punch[i] = document.getElementById("punch" + i).innerHTML;
   }
 }
 
