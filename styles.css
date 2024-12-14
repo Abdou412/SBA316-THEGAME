@@ -1,8 +1,19 @@
 .maincontainer {
-    border: solid ;
-    border-width: 10px;
+  border: solid;
+  border-width: 10px;
   height: 100vh;
   width: 80%;
   background-color: rgb(74, 81, 231);
   margin: auto;
+  color: burlywood;
+  text-align: center;
+  font-size: x-large;
+}
+.info {
+  border: solid rgb(148, 219, 148);
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 2em;
+  background-color: rgb(43, 35, 25);
 }
