@@ -1,7 +1,8 @@
 let info = document.querySelector(".info");
 let turn = "x";
-
+let array_punch = []
 function win (){
+
 
 }
 
