@@ -6,6 +6,6 @@ function play(id) {
   if (turn === "x" && punch_id.innerHTML == "") {
     punch_id.innerHTML = "x";
     turn = "o";
-info.innerHTML = "IT IS THE TURN OF 'O'"
+    info.innerHTML = "IT IS THE TURN OF 'O'";
   }
 }
