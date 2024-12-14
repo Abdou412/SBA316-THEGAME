@@ -10,6 +10,6 @@ function play(id) {
   } else if (turn == "o" && punch_id.innerHTML == "") {
   punch_id.innerHTML = "o"
   turn= "x"
-
+info.innerHTML = "IT IS THE TURN OF 'X'";
   }
 }
