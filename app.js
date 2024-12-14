@@ -1,5 +1,11 @@
 let info = document.querySelector(".info");
 let turn = "x";
+
+function win (){
+
+}
+
+
 function play(id) {
   let punch_id = document.getElementById(id);
 
@@ -12,4 +18,6 @@ function play(id) {
   turn= "x"
 info.innerHTML = "IT IS THE TURN OF 'X'";
   }
+  
 }
+
