@@ -18,6 +18,6 @@ function play(id) {
   turn= "x"
 info.innerHTML = "IT IS THE TURN OF 'X'";
   }
-  
+  win ()
 }
 
