@@ -7,7 +7,7 @@ function win() {
     // crate an if statement to compare the the square 
 
 if (array_punch[1]== array_punch[2]&& array_punch[1]== array_punch[3]&& array_punch[1]!==""    ) {
-    
+    console.log("keep going abdou");
     
 }
 
