@@ -1,3 +1,3 @@
 let turn = "x"
-function play(){}
+function play(id){}
 
