@@ -2,7 +2,7 @@ let info = document.querySelector(".info");
 let turn = "x";
 let array_punch = [];
 function win() {
-  for (i = 1; i < 9; i++) {
+  for (i = 1; i <= 9; i++) {
     array_punch[i] = document.getElementById("punch" + i);
   }
 }
