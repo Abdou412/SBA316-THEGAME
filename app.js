@@ -4,6 +4,14 @@ let array_punch = [];
 function win() {
   for (i = 1; i <= 9; i++) {
     array_punch[i] = document.getElementById("punch" + i).innerHTML;
+    // crate an if statement to compare the the square 
+
+if (array_punch[1]== array_punch[2]&& array_punch[1]== array_punch[3]&& array_punch[1]!==""    ) {
+    
+    
+}
+
+
   }
 }
 
