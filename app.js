@@ -12,12 +12,17 @@ function win() {
       array_punch[1] !== ""
     ) {
       //   console.log("keep going abdou");
+
+      info.innerHTML = `${array_punch[1]} win`;
+      
+
     } else if (
       array_punch[4] == array_punch[5] &&
       array_punch[4] == array_punch[6] &&
       array_punch[4] !== ""
     ) {
       //   console.log("keep going abdou");
+    
     } else if (
       array_punch[7] == array_punch[8] &&
       array_punch[7] == array_punch[9] &&
