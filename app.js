@@ -110,3 +110,12 @@ button.textContent = "RESTART GAME";
 button.id = "mybutton";
 const button_div = document.getElementById("button_div");
 button_div.appendChild(button);
+
+function refreshpage() {
+  location.reload();
+}
+
+document.getElementById("mybutton").addEventListener("click",refreshpage)
+
+
+
