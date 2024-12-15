@@ -69,7 +69,8 @@ function win() {
     ) {
       //   console.log("keep going abdou");
     }
-    else{   info.innerHTML= "DRAW"}
+    
+    
   }
 }
 
