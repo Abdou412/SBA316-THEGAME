@@ -1,21 +1,21 @@
 .maincontainer {
-  border: solid rgb(43, 21, 21);
+  border: solid rgb(164, 19, 19);
   border-width: 10px;
   height: 100vh;
-  width: 80%;
-  background-color: rgb(74, 81, 231);
+  width: 90%;
+  background-color: rgb(0, 0, 5);
   margin: auto;
-  color: rgb(245, 225, 201);
+  color: rgb(232, 202, 166);
   text-align: center;
   font-size: x-large;
+  padding-bottom: 10px;
 }
 .info {
   border: solid rgb(148, 219, 148);
   width: 90%;
-  margin: auto;
-  margin-top: 20px;
+  margin: 2px 20px;
   font-size: 2em;
-  background-color: rgb(43, 35, 25);
+  background-color: rgb(49, 40, 28);
   padding: 5px;
 }
 span {
@@ -23,13 +23,13 @@ span {
 }
 
 .divs_container {
-  background-color: rgb(188, 95, 60);
+  background-color: rgb(11, 82, 26);
   width: auto;
   display: grid;
   grid-template-columns: repeat(3, 150px);
   gap: 10px;
   justify-content: center;
-  margin: 10px;
+  margin: 0 10px;
 }
 .punch {
   width: 150px;
@@ -50,22 +50,45 @@ background-color: rgb(6, 180, 32);
 
 }
 #button_div{
-border: solide green;
+border: solide rgb(16, 22, 16);
 border-width: 10px;
 height: 50px;
-background-color: rgb(245, 3, 3);
-margin: 0 10px;
-
+background-color: rgb(106, 53, 53);
+margin: 2px 10px;
+padding-top: 5px;
 }
 #mybutton{
-
+padding-top: 5px;
 height: 40px;
 width: 80%;
-margin-top: 5px;
+
 font-size: 1em;
 background-color: black;
 
 color: rgb(193, 127, 127);
+}
+#change_bg{
+padding-top: 5px;
+border: solide green;
+border-width: 10px;
+height: 45px;
+background-color: rgb(245, 3, 3);
+margin: 0 10px;
+}
+#bgbutton{
+    padding-top: 5px;
+height: 40px;
+width: 80%;
+
+font-size: 1em;
+background-color: black;
+
+color: rgb(193, 127, 127);
+
+
+
+
+
 }
 
 

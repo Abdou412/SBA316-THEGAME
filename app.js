@@ -105,7 +105,7 @@ function play(id) {
   win();
 }
 
-const button = document.createElement("button");
+const button = window.document.createElement("button");
 button.textContent = "RESTART GAME";
 button.id = "mybutton";
 const button_div = document.getElementById("button_div");
@@ -115,7 +115,19 @@ function refreshpage() {
   location.reload();
 }
 
-document.getElementById("mybutton").addEventListener("click",refreshpage)
+document.getElementById("mybutton").addEventListener("click", refreshpage);
 
+const bgbutton = window.document.createElement("button");
+bgbutton.textContent = "CHANGE THE GAME BG";
+bgbutton.id = "bgbutton";
+const bgdiv = document.getElementById("change_bg");
+bgdiv.appendChild(bgbutton);
 
+document.getElementById("bgbutton").addEventListener("click", changebg);
 
+function changebg() {
+  document.body.style.backgroundColor = "rgb(11, 82, 85)";
+
+  document.getElementsByClassName("punch").style.backgroundColor = "blue";
+  ("green");
+}
