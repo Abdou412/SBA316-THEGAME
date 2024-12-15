@@ -14,7 +14,9 @@ function win() {
       //   console.log("keep going abdou");
 
       info.innerHTML = `${array_punch[1]} win`;
-      
+      document.getElementById("punch1").style.backgroundColor="blue"
+      document.getElementById("punch2").style.backgroundColor = "blue";
+      document.getElementById("punch3").style.backgroundColor = "blue";
 
     } else if (
       array_punch[4] == array_punch[5] &&
