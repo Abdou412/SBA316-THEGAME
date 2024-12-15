@@ -5,7 +5,7 @@ function win() {
   for (i = 1; i < 10; i++) {
     array_punch[i] = document.getElementById("punch" + i).innerHTML;
     // crate an if statement to compare the the square
-
+  }
     if (
       array_punch[1] == array_punch[2] &&
       array_punch[2] == array_punch[3] &&
@@ -14,64 +14,81 @@ function win() {
       //   console.log("keep going abdou");
 
       info.innerHTML = `${array_punch[1]} WIN`;
-      document.getElementById("punch1").style.backgroundColor="blue"
-      document.getElementById("punch2").style.backgroundColor = "blue";
-      document.getElementById("punch3").style.backgroundColor = "blue";
-
+      document.getElementById("punch1").style.backgroundColor = "white";
+      document.getElementById("punch2").style.backgroundColor = "white";
+      document.getElementById("punch3").style.backgroundColor = "white";
     } else if (
       array_punch[4] == array_punch[5] &&
       array_punch[5] == array_punch[6] &&
-      array_punch[4] !==""
+      array_punch[6] !== ""
     ) {
       //   console.log("keep going abdou");
-     info.innerHTML = `${array_punch[4]} WIN`;
-     document.getElementById("punch4").style.backgroundColor = "green";
-     document.getElementById("punch5").style.backgroundColor = "blue";
-     document.getElementById("punch6").style.backgroundColor = "blue";
-    
-      
+      info.innerHTML = `${array_punch[4]} WIN`;
+      document.getElementById("punch4").style.backgroundColor = "white";
+      document.getElementById("punch5").style.backgroundColor = "white";
+      document.getElementById("punch6").style.backgroundColor = "white";
     } else if (
       array_punch[7] == array_punch[8] &&
       array_punch[8] == array_punch[9] &&
       array_punch[7] !== ""
     ) {
       //   console.log("keep going abdou");
-     
-    
+      info.innerHTML = `${array_punch[7]} WIN`;
+      document.getElementById("punch7").style.backgroundColor = "white";
+      document.getElementById("punch8").style.backgroundColor = "white";
+      document.getElementById("punch9").style.backgroundColor = "white";
     } else if (
       array_punch[1] == array_punch[4] &&
       array_punch[1] == array_punch[7] &&
       array_punch[1] !== ""
     ) {
       //   console.log("keep going abdou");
+      info.innerHTML = `${array_punch[1]} WIN`;
+      document.getElementById("punch1").style.backgroundColor = "white";
+      document.getElementById("punch4").style.backgroundColor = "white";
+      document.getElementById("punch7").style.backgroundColor = "white";
     } else if (
       array_punch[3] == array_punch[6] &&
       array_punch[3] == array_punch[9] &&
       array_punch[3] !== ""
     ) {
       //   console.log("keep going abdou");
+      info.innerHTML = `${array_punch[3]} WIN`;
+      document.getElementById("punch3").style.backgroundColor = "white";
+      document.getElementById("punch6").style.backgroundColor = "white";
+      document.getElementById("punch9").style.backgroundColor = "white";
     } else if (
       array_punch[2] == array_punch[5] &&
       array_punch[2] == array_punch[8] &&
       array_punch[2] !== ""
     ) {
       //   console.log("keep going abdou");
+      info.innerHTML = `${array_punch[2]} WIN`;
+      document.getElementById("punch2").style.backgroundColor = "white";
+      document.getElementById("punch5").style.backgroundColor = "white";
+      document.getElementById("punch8").style.backgroundColor = "white";
     } else if (
       array_punch[1] == array_punch[5] &&
       array_punch[1] == array_punch[9] &&
       array_punch[1] !== ""
     ) {
       //   console.log("keep going abdou");
+      info.innerHTML = `${array_punch[1]} WIN`;
+      document.getElementById("punch1").style.backgroundColor = "white";
+      document.getElementById("punch5").style.backgroundColor = "white";
+      document.getElementById("punch9").style.backgroundColor = "white";
     } else if (
       array_punch[3] == array_punch[5] &&
       array_punch[3] == array_punch[7] &&
       array_punch[3] !== ""
     ) {
       //   console.log("keep going abdou");
+      info.innerHTML = `${array_punch[3]} WIN`;
+      document.getElementById("punch3").style.backgroundColor = "white";
+      document.getElementById("punch5").style.backgroundColor = "white";
+      document.getElementById("punch7").style.backgroundColor = "white";
     }
-    
-    
-  }
+  
 }
 
 function play(id) {
