@@ -4,14 +4,57 @@ let array_punch = [];
 function win() {
   for (i = 1; i <= 9; i++) {
     array_punch[i] = document.getElementById("punch" + i).innerHTML;
-    // crate an if statement to compare the the square 
+    // crate an if statement to compare the the square
 
-if (array_punch[1]== array_punch[2]&& array_punch[1]== array_punch[3]&& array_punch[1]!==""    ) {
-    console.log("keep going abdou");
-    
-}
-
-
+    if (
+      array_punch[1] == array_punch[2] &&
+      array_punch[1] == array_punch[3] &&
+      array_punch[1] !== ""
+    ) {
+      //   console.log("keep going abdou");
+    } else if (
+      array_punch[4] == array_punch[5] &&
+      array_punch[4] == array_punch[6] &&
+      array_punch[4] !== ""
+    ) {
+      //   console.log("keep going abdou");
+    } else if (
+      array_punch[7] == array_punch[8] &&
+      array_punch[7] == array_punch[9] &&
+      array_punch[7] !== ""
+    ) {
+      //   console.log("keep going abdou");
+    } else if (
+      array_punch[1] == array_punch[4] &&
+      array_punch[1] == array_punch[7] &&
+      array_punch[1] !== ""
+    ) {
+      //   console.log("keep going abdou");
+    } else if (
+      array_punch[3] == array_punch[6] &&
+      array_punch[3] == array_punch[9] &&
+      array_punch[3] !== ""
+    ) {
+      //   console.log("keep going abdou");
+    } else if (
+      array_punch[2] == array_punch[5] &&
+      array_punch[2] == array_punch[8] &&
+      array_punch[2] !== ""
+    ) {
+      //   console.log("keep going abdou");
+    } else if (
+      array_punch[1] == array_punch[5] &&
+      array_punch[1] == array_punch[9] &&
+      array_punch[1] !== ""
+    ) {
+      //   console.log("keep going abdou");
+    } else if (
+      array_punch[3] == array_punch[5] &&
+      array_punch[3] == array_punch[7] &&
+      array_punch[3] !== ""
+    ) {
+      //   console.log("keep going abdou");
+    }
   }
 }
 
