@@ -87,7 +87,7 @@ function win() {
     document.getElementById("punch3").style.backgroundColor = "white";
     document.getElementById("punch5").style.backgroundColor = "white";
     document.getElementById("punch7").style.backgroundColor = "white";
-  } 
+  }
 }
 
 function play(id) {
@@ -118,7 +118,7 @@ function refreshpage() {
 document.getElementById("mybutton").addEventListener("click", refreshpage);
 
 const bgbutton = window.document.createElement("button");
-bgbutton.textContent = "CHANGE THE GAME BG";
+bgbutton.textContent = "DARK MODE";
 bgbutton.id = "bgbutton";
 const bgdiv = document.getElementById("change_bg");
 bgdiv.appendChild(bgbutton);
@@ -126,8 +126,34 @@ bgdiv.appendChild(bgbutton);
 document.getElementById("bgbutton").addEventListener("click", changebg);
 
 function changebg() {
-  document.body.style.backgroundColor = "rgb(11, 82, 85)";
+  document.body.style.backgroundColor = "black";
 
-  document.getElementsByClassName("punch").style.backgroundColor = "blue";
-  ("green");
+  document.getElementById("button_div").style.backgroundColor = "black";
+
+  document.getElementById("change_bg").style.backgroundColor = "black";
+  document.getElementById("mybutton").style.backgroundColor = "black";
+  document.getElementById("mybutton").style.color = "white";
+
+  document.getElementById("bgbutton").style.backgroundColor = "black";
+  document.getElementById("bgbutton").style.color = "white";
+
+
+for (i = 1; i < 10; i++) {
+  array_punch[i] = document.getElementById("punch" + i).style.backgroundColor="black";
+  array_punch[i] = document.getElementById("punch" + i).style.color =
+    "gray";
+
+     array_punch[i] = document.getElementById("punch" + i).style.border = "gray solid 2px";
+      array_punch[i] = document.getElementById("punch" + i).style.color =
+        "orange";
+  
+}
+
+document.getElementById("registration").style.backgroundColor = "black";
+document.getElementById("registration").style.color = "white";
+
+
+
+
+
 }
